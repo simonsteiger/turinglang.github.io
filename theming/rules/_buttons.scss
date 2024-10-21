@@ -1,0 +1,14 @@
+.button {
+    padding: 0.5rem 1rem;
+    //margin: 0.25rem;
+    border-radius: 25px;
+    border: solid $text-muted 1px;
+    color: $color-fg;
+    background-color: $body-bg;
+    
+    &--fill {
+        @extend .button;
+        background-color: $color-secondary;
+        border: solid $color-secondary 1px;
+    }
+}
