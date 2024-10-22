@@ -14,4 +14,9 @@
         font-size: x-large;
         font-weight: 700;
     }
+
+    &--nopad {
+        @extend .card;
+        padding: 0rem;
+    }
 }
