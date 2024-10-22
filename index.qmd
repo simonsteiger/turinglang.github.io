@@ -13,8 +13,10 @@ description: |
 <span style="font-size:4rem;font-weight:700;">Turing.jl</span>
 <span style="font-size:2rem;padding-bottom:1.25rem;">Bayesian inference with probabilistic programming</span>
 <div class="d-flex flex-row gap-2">
-<div class="button--fill">Get Started</div>
-<div class="button">API reference</div>
+[Get Started](https://turinglang.org/docs/tutorials/docs-00-getting-started/){.button--fill .btn}
+
+<!-- The empty line above makes quarto accept the div class -->
+[API reference](/library/){.button .btn}
 </div>
 </div>
 <div class="d-flex flex-row flex-wrap justify-content-center gap-3 pb-5">
