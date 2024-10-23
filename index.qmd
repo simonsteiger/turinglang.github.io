@@ -9,7 +9,7 @@ description: |
 ---
 
 ```{=html}
-<div class="content-panel">
+<div style="padding: 1.5rem 1.5rem 0rem 1.5rem">
   <div class="d-flex flex-column align-items-center gap-0" style="padding:6rem 0;">
     <image src="assets/images/turing-logo.svg" width="150px" alt="Three normal probability distributions">
     <span style="font-size:4rem;font-weight:700;">
@@ -52,7 +52,7 @@ description: |
   </div>
 </div>
 ```
-<div class="content-panel">
+<div style="padding: 0rem 1.5rem 1.5rem 1.5rem">
 <div class="d-flex flex-row flex-wrap justify-content-center gap-3">
 <div style="min-width:420px; max-width:420px;text-align:right;padding:0.5rem;">
   <div style="font-size:x-large;font-weight:700;padding-bottom:0.5rem;">
