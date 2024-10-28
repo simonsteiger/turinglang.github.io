@@ -50,11 +50,22 @@ svg {
     opacity: 0;
     animation: fadeInText 2s forwards ease-in-out;
     animation-delay: 3s;
+    
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        padding-top: 0%;
+        padding-right: 0%;
+        text-align: center;
+    }
 }
 
 .upperContent > h1 {
-    font-size: 80px;
+    font-size: 5rem;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    
+    @media screen and (max-width: 992px) {
+        font-size: 3.5rem;
+    }
 }
 
 .upperContent > p {

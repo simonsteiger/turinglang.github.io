@@ -37,17 +37,10 @@ description: |
      </svg>
   </div>
 </div>
-```
-
-```{=html}
-<div class="d-flex flex-column align-items-center gap-0" style="padding:6rem 0;">
-  <image src="assets/images/turing-logo.svg" width="150px" alt="Three normal probability distributions">
-  <span style="font-size:4rem;font-weight:700;">
-    Turing.jl
-  </span>
-  <span class="display-6 d-block text-center pb-4 display-md-5 display-lg-4">
+<span class="display-6 d-block text-center py-5 display-md-5 display-lg-4">
     Bayesian inference with probabilistic programming
-  </span>
+</span>
+<div class="d-flex flex-column align-items-center gap-0 pb-5">
   <div class="d-flex flex-row flex-wrap panel-wrapper gap-2">
     <a href="https://turinglang.org/docs/tutorials/docs-00-getting-started/" class="button--fill btn">
       Tutorials
@@ -60,6 +53,9 @@ description: |
     </a>
   </div>
 </div>
+```
+
+```{=html}
 <div class="d-flex flex-row flex-wrap panel-wrapper gap-4 section-end-space">
   <div class="panel">
     <div class="panel-title pb-1">
